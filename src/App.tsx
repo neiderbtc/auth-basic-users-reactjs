@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC, useContext } from 'react';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import Login from './components/pages/Login';
+import Register from './components/pages/Register';
+import Home from './components/pages/Home';
+import AuthContext from './context/AuthContext';
 
-function App() {
+const App: FC = () => {
+  const { isLogin } = useContext(AuthContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/login" component={Login} />
+        <Route path="/register" component={Register} />
+        {
+          isLogin ?
+            <Route exact path="/" component={Home} />
+            : <Redirect to="/login" />
+        }
+      </Switch>
+    </Router>
   );
 }
 
