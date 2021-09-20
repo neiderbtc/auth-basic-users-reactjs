@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/uth-basic-users-reactjs/static/css/main.dce2f863.chunk.css",
+    "main.js": "/uth-basic-users-reactjs/static/js/main.e91cb6e8.chunk.js",
+    "main.js.map": "/uth-basic-users-reactjs/static/js/main.e91cb6e8.chunk.js.map",
+    "runtime-main.js": "/uth-basic-users-reactjs/static/js/runtime-main.004a8d28.js",
+    "runtime-main.js.map": "/uth-basic-users-reactjs/static/js/runtime-main.004a8d28.js.map",
+    "static/js/2.91611c0e.chunk.js": "/uth-basic-users-reactjs/static/js/2.91611c0e.chunk.js",
+    "static/js/2.91611c0e.chunk.js.map": "/uth-basic-users-reactjs/static/js/2.91611c0e.chunk.js.map",
+    "index.html": "/uth-basic-users-reactjs/index.html",
+    "static/css/main.dce2f863.chunk.css.map": "/uth-basic-users-reactjs/static/css/main.dce2f863.chunk.css.map",
+    "static/js/2.91611c0e.chunk.js.LICENSE.txt": "/uth-basic-users-reactjs/static/js/2.91611c0e.chunk.js.LICENSE.txt",
+    "static/media/music.da999e6d.svg": "/uth-basic-users-reactjs/static/media/music.da999e6d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.004a8d28.js",
+    "static/js/2.91611c0e.chunk.js",
+    "static/css/main.dce2f863.chunk.css",
+    "static/js/main.e91cb6e8.chunk.js"
+  ]
+}
